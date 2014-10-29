@@ -147,11 +147,11 @@
         <window title="RegularRectangular" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" appearanceType="aqua" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="840" y="420" width="318" height="360"/>
+            <rect key="contentRect" x="840" y="420" width="318" height="358"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
             <value key="minSize" type="size" width="50" height="50"/>
             <view key="contentView" focusRingType="none" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="318" height="360"/>
+                <rect key="frame" x="0.0" y="0.0" width="318" height="358"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YdR-tP-I9y">
@@ -171,7 +171,7 @@
                         </textFieldCell>
                     </textField>
                     <customView translatesAutoresizingMaskIntoConstraints="NO" id="1Vu-ys-mQk" customClass="HoleView">
-                        <rect key="frame" x="1" y="1" width="316" height="274"/>
+                        <rect key="frame" x="1" y="1" width="316" height="272"/>
                     </customView>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h4I-kA-34O">
                         <rect key="frame" x="49" y="323" width="60" height="22"/>
@@ -219,7 +219,7 @@
                     <constraint firstItem="1Vu-ys-mQk" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="1" id="zLU-9H-SiN"/>
                 </constraints>
             </view>
-            <point key="canvasLocation" x="-119" y="-44"/>
+            <point key="canvasLocation" x="-349" y="103"/>
         </window>
         <drawer trailingOffset="15" id="aAp-Zp-jRU">
             <size key="contentSize" width="100" height="100"/>

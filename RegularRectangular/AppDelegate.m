@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "HoleView.h"
 #import "OnlyNumberFormatter.h"
+#import "ImageCaptureWindow.h"
+#import "ImageCapturerController.h"
 #pragma mark Basic Profiling Tools
 // Set to 1 to enable basic profiling. Profiling information is logged to console.
 #ifndef PROFILE_WINDOW_GRAB
@@ -30,6 +32,8 @@
 @property (weak) IBOutlet HoleView *holeView;
 
 @property (weak) IBOutlet NSWindow *window;
+
+
 @property (nonatomic)NSDateFormatter *dateFormatter;
 @end
 
@@ -47,6 +51,7 @@
     [_heightInput setFormatter:formatter];
     _dateFormatter = [[NSDateFormatter alloc] init];
     [_dateFormatter setDateFormat:@"/yyyy_MM_dd_HH_mm_SS_ss"];
+    
 }
 - (IBAction)doResize:(id)sender {
     NSRect theRect = self.window.frame;
@@ -83,9 +88,9 @@
     CGImageRef screenShot = CGWindowListCreateImage(rectToShot, kCGWindowListOptionOnScreenOnly, kCGNullWindowID, kCGWindowImageDefault);
     Profile(screenShot);
     StopwatchEnd("Screenshot");
-    
     return screenShot;
 }
+
 - (IBAction)startCapture:(id)sender {
     NSBitmapImageRep *bitmapRep = [[NSBitmapImageRep alloc] initWithCGImage:[self createScreenShot]];
     NSData *data = [bitmapRep representationUsingType: NSPNGFileType properties: nil];
@@ -93,10 +98,11 @@
     NSString * desktopPath = [paths objectAtIndex:0];
     desktopPath = [NSString stringWithFormat:@"%@%@%@",desktopPath,[_dateFormatter stringFromDate:[NSDate date]],@".png"];
     [data writeToFile: desktopPath atomically: NO];
-//    // Create an NSImage and add the bitmap rep to it...
-//    NSImage *image = [[NSImage alloc] init];
-//    [image addRepresentation:bitmapRep];
-//    NSLog(@"%@",image);
+    
+    
+    ImageCapturerController *imageCaptureController = [[ImageCapturerController alloc] initWithWindowNibName:@"ImageCaptureWindow"];
+    [imageCaptureController showWindow:self];
 }
+
 
 @end
