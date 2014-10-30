@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		59440C7E1A00D58300A1F0C9 /* ImageCapturerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59440C7D1A00D58300A1F0C9 /* ImageCapturerController.m */; };
-		59440C811A00D65800A1F0C9 /* ImageCaptureWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 59440C801A00D65800A1F0C9 /* ImageCaptureWindow.m */; };
-		59440C851A00D72A00A1F0C9 /* ImageCaptureWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59440C841A00D72A00A1F0C9 /* ImageCaptureWindow.xib */; };
+		5955E3B41A02248A00B209A0 /* ImageCaptureWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5955E3B21A02248A00B209A0 /* ImageCaptureWindowController.m */; };
+		5955E3B51A02248A00B209A0 /* ImageCaptureWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5955E3B31A02248A00B209A0 /* ImageCaptureWindowController.xib */; };
 		59A5328A19F54699007A2F74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A5328919F54699007A2F74 /* main.m */; };
 		59A5328D19F54699007A2F74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A5328C19F54699007A2F74 /* AppDelegate.m */; };
 		59A5328F19F54699007A2F74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59A5328E19F54699007A2F74 /* Images.xcassets */; };
@@ -30,11 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		59440C7C1A00D58300A1F0C9 /* ImageCapturerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCapturerController.h; sourceTree = "<group>"; };
-		59440C7D1A00D58300A1F0C9 /* ImageCapturerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCapturerController.m; sourceTree = "<group>"; };
-		59440C7F1A00D65800A1F0C9 /* ImageCaptureWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCaptureWindow.h; sourceTree = "<group>"; };
-		59440C801A00D65800A1F0C9 /* ImageCaptureWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCaptureWindow.m; sourceTree = "<group>"; };
-		59440C841A00D72A00A1F0C9 /* ImageCaptureWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCaptureWindow.xib; sourceTree = "<group>"; };
+		5955E3B11A02248A00B209A0 /* ImageCaptureWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCaptureWindowController.h; sourceTree = "<group>"; };
+		5955E3B21A02248A00B209A0 /* ImageCaptureWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCaptureWindowController.m; sourceTree = "<group>"; };
+		5955E3B31A02248A00B209A0 /* ImageCaptureWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCaptureWindowController.xib; sourceTree = "<group>"; };
 		59A5328419F54699007A2F74 /* RegularRectangular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegularRectangular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A5328819F54699007A2F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59A5328919F54699007A2F74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -93,17 +90,15 @@
 				59A5328B19F54699007A2F74 /* AppDelegate.h */,
 				59A5328C19F54699007A2F74 /* AppDelegate.m */,
 				59A5328E19F54699007A2F74 /* Images.xcassets */,
-				59440C841A00D72A00A1F0C9 /* ImageCaptureWindow.xib */,
-				59A5329019F54699007A2F74 /* MainMenu.xib */,
 				59A5328719F54699007A2F74 /* Supporting Files */,
 				59A532AA19F55B13007A2F74 /* HoleView.h */,
 				59A532AB19F55B13007A2F74 /* HoleView.m */,
 				59A532AD19F56E5D007A2F74 /* OnlyNumberFormatter.h */,
 				59A532AE19F56E5D007A2F74 /* OnlyNumberFormatter.m */,
-				59440C7C1A00D58300A1F0C9 /* ImageCapturerController.h */,
-				59440C7D1A00D58300A1F0C9 /* ImageCapturerController.m */,
-				59440C7F1A00D65800A1F0C9 /* ImageCaptureWindow.h */,
-				59440C801A00D65800A1F0C9 /* ImageCaptureWindow.m */,
+				5955E3B11A02248A00B209A0 /* ImageCaptureWindowController.h */,
+				5955E3B21A02248A00B209A0 /* ImageCaptureWindowController.m */,
+				59A5329019F54699007A2F74 /* MainMenu.xib */,
+				5955E3B31A02248A00B209A0 /* ImageCaptureWindowController.xib */,
 			);
 			path = RegularRectangular;
 			sourceTree = "<group>";
@@ -215,7 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59A5328F19F54699007A2F74 /* Images.xcassets in Resources */,
-				59440C851A00D72A00A1F0C9 /* ImageCaptureWindow.xib in Resources */,
+				5955E3B51A02248A00B209A0 /* ImageCaptureWindowController.xib in Resources */,
 				59A5329219F54699007A2F74 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,10 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				59A532AC19F55B13007A2F74 /* HoleView.m in Sources */,
+				5955E3B41A02248A00B209A0 /* ImageCaptureWindowController.m in Sources */,
 				59A5328D19F54699007A2F74 /* AppDelegate.m in Sources */,
-				59440C7E1A00D58300A1F0C9 /* ImageCapturerController.m in Sources */,
 				59A5328A19F54699007A2F74 /* main.m in Sources */,
-				59440C811A00D65800A1F0C9 /* ImageCaptureWindow.m in Sources */,
 				59A532AF19F56E5D007A2F74 /* OnlyNumberFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

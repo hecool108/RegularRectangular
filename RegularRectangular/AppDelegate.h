@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate,NSTextFieldDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate>
 
 
 @end
