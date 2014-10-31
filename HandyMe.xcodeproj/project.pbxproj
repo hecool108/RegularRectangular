@@ -32,14 +32,14 @@
 		5955E3B11A02248A00B209A0 /* ImageCaptureWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCaptureWindowController.h; sourceTree = "<group>"; };
 		5955E3B21A02248A00B209A0 /* ImageCaptureWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCaptureWindowController.m; sourceTree = "<group>"; };
 		5955E3B31A02248A00B209A0 /* ImageCaptureWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCaptureWindowController.xib; sourceTree = "<group>"; };
-		59A5328419F54699007A2F74 /* RegularRectangular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegularRectangular.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A5328419F54699007A2F74 /* HandyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A5328819F54699007A2F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59A5328919F54699007A2F74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59A5328B19F54699007A2F74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		59A5328C19F54699007A2F74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		59A5328E19F54699007A2F74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		59A5329119F54699007A2F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		59A5329719F5469A007A2F74 /* RegularRectangularTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegularRectangularTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A5329719F5469A007A2F74 /* HandyMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandyMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A5329C19F5469A007A2F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59A5329D19F5469A007A2F74 /* RegularRectangularTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularRectangularTests.m; sourceTree = "<group>"; };
 		59A532AA19F55B13007A2F74 /* HoleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoleView.h; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 		59A5328519F54699007A2F74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59A5328419F54699007A2F74 /* RegularRectangular.app */,
-				59A5329719F5469A007A2F74 /* RegularRectangularTests.xctest */,
+				59A5328419F54699007A2F74 /* HandyMe.app */,
+				59A5329719F5469A007A2F74 /* HandyMeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		59A5328319F54699007A2F74 /* RegularRectangular */ = {
+		59A5328319F54699007A2F74 /* HandyMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59A532A119F5469A007A2F74 /* Build configuration list for PBXNativeTarget "RegularRectangular" */;
+			buildConfigurationList = 59A532A119F5469A007A2F74 /* Build configuration list for PBXNativeTarget "HandyMe" */;
 			buildPhases = (
 				59A5328019F54699007A2F74 /* Sources */,
 				59A5328119F54699007A2F74 /* Frameworks */,
@@ -144,14 +144,14 @@
 			);
 			dependencies = (
 			);
-			name = RegularRectangular;
+			name = HandyMe;
 			productName = RegularRectangular;
-			productReference = 59A5328419F54699007A2F74 /* RegularRectangular.app */;
+			productReference = 59A5328419F54699007A2F74 /* HandyMe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		59A5329619F5469A007A2F74 /* RegularRectangularTests */ = {
+		59A5329619F5469A007A2F74 /* HandyMeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59A532A419F5469A007A2F74 /* Build configuration list for PBXNativeTarget "RegularRectangularTests" */;
+			buildConfigurationList = 59A532A419F5469A007A2F74 /* Build configuration list for PBXNativeTarget "HandyMeTests" */;
 			buildPhases = (
 				59A5329319F5469A007A2F74 /* Sources */,
 				59A5329419F5469A007A2F74 /* Frameworks */,
@@ -162,9 +162,9 @@
 			dependencies = (
 				59A5329919F5469A007A2F74 /* PBXTargetDependency */,
 			);
-			name = RegularRectangularTests;
+			name = HandyMeTests;
 			productName = RegularRectangularTests;
-			productReference = 59A5329719F5469A007A2F74 /* RegularRectangularTests.xctest */;
+			productReference = 59A5329719F5469A007A2F74 /* HandyMeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -185,7 +185,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 59A5327F19F54699007A2F74 /* Build configuration list for PBXProject "RegularRectangular" */;
+			buildConfigurationList = 59A5327F19F54699007A2F74 /* Build configuration list for PBXProject "HandyMe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -198,8 +198,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				59A5328319F54699007A2F74 /* RegularRectangular */,
-				59A5329619F5469A007A2F74 /* RegularRectangularTests */,
+				59A5328319F54699007A2F74 /* HandyMe */,
+				59A5329619F5469A007A2F74 /* HandyMeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,7 +250,7 @@
 /* Begin PBXTargetDependency section */
 		59A5329919F5469A007A2F74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 59A5328319F54699007A2F74 /* RegularRectangular */;
+			target = 59A5328319F54699007A2F74 /* HandyMe */;
 			targetProxy = 59A5329819F5469A007A2F74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -351,7 +351,7 @@
 				INFOPLIST_FILE = RegularRectangular/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HandyMe;
 			};
 			name = Debug;
 		};
@@ -363,7 +363,7 @@
 				INFOPLIST_FILE = RegularRectangular/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HandyMe;
 			};
 			name = Release;
 		};
@@ -383,7 +383,7 @@
 				INFOPLIST_FILE = RegularRectangularTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HandyMeTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RegularRectangular.app/Contents/MacOS/RegularRectangular";
 			};
 			name = Debug;
@@ -400,7 +400,7 @@
 				INFOPLIST_FILE = RegularRectangularTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HandyMeTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RegularRectangular.app/Contents/MacOS/RegularRectangular";
 			};
 			name = Release;
@@ -408,7 +408,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		59A5327F19F54699007A2F74 /* Build configuration list for PBXProject "RegularRectangular" */ = {
+		59A5327F19F54699007A2F74 /* Build configuration list for PBXProject "HandyMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59A5329F19F5469A007A2F74 /* Debug */,
@@ -417,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59A532A119F5469A007A2F74 /* Build configuration list for PBXNativeTarget "RegularRectangular" */ = {
+		59A532A119F5469A007A2F74 /* Build configuration list for PBXNativeTarget "HandyMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59A532A219F5469A007A2F74 /* Debug */,
@@ -426,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59A532A419F5469A007A2F74 /* Build configuration list for PBXNativeTarget "RegularRectangularTests" */ = {
+		59A532A419F5469A007A2F74 /* Build configuration list for PBXNativeTarget "HandyMeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59A532A519F5469A007A2F74 /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "59A5328319F54699007A2F74"
-               BuildableName = "RegularRectangular.app"
-               BlueprintName = "RegularRectangular"
-               ReferencedContainer = "container:RegularRectangular.xcodeproj">
+               BuildableName = "HandyMe.app"
+               BlueprintName = "HandyMe"
+               ReferencedContainer = "container:HandyMe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "59A5329619F5469A007A2F74"
-               BuildableName = "RegularRectangularTests.xctest"
-               BlueprintName = "RegularRectangularTests"
-               ReferencedContainer = "container:RegularRectangular.xcodeproj">
+               BuildableName = "HandyMeTests.xctest"
+               BlueprintName = "HandyMeTests"
+               ReferencedContainer = "container:HandyMe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "59A5329619F5469A007A2F74"
-               BuildableName = "RegularRectangularTests.xctest"
-               BlueprintName = "RegularRectangularTests"
-               ReferencedContainer = "container:RegularRectangular.xcodeproj">
+               BuildableName = "HandyMeTests.xctest"
+               BlueprintName = "HandyMeTests"
+               ReferencedContainer = "container:HandyMe.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "59A5328319F54699007A2F74"
-            BuildableName = "RegularRectangular.app"
-            BlueprintName = "RegularRectangular"
-            ReferencedContainer = "container:RegularRectangular.xcodeproj">
+            BuildableName = "HandyMe.app"
+            BlueprintName = "HandyMe"
+            ReferencedContainer = "container:HandyMe.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "59A5328319F54699007A2F74"
-            BuildableName = "RegularRectangular.app"
-            BlueprintName = "RegularRectangular"
-            ReferencedContainer = "container:RegularRectangular.xcodeproj">
+            BuildableName = "HandyMe.app"
+            BlueprintName = "HandyMe"
+            ReferencedContainer = "container:HandyMe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "59A5328319F54699007A2F74"
-            BuildableName = "RegularRectangular.app"
-            BlueprintName = "RegularRectangular"
-            ReferencedContainer = "container:RegularRectangular.xcodeproj">
+            BuildableName = "HandyMe.app"
+            BlueprintName = "HandyMe"
+            ReferencedContainer = "container:HandyMe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

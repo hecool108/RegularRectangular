@@ -14,5 +14,20 @@
 @property (nonatomic) HoleView *holeView;
 @property (weak) IBOutlet NSTextField *widthInput;
 @property (weak) IBOutlet NSTextField *heightInput;
+
+@property (strong) IBOutlet NSPanel *floatingWindow;
+@property (weak) IBOutlet NSTextField *colorLabel;
+@property (weak) IBOutlet NSColorWell *colorCube;
+@property (unsafe_unretained) IBOutlet NSTextView *objectiveCCode;
+
+@property (unsafe_unretained) IBOutlet NSTextView *swiftCode;
+
+@property (weak) IBOutlet NSTextField *hexCode;
+
+@property (unsafe_unretained) IBOutlet NSTextView *objectiveCCodeIOS;
+
+
+
+
 - (IBAction)startCapture:(id)sender;
 @end

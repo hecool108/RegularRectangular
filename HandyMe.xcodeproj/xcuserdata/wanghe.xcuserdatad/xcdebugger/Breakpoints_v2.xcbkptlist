@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RegularRectangular/ImageCaptureWindowController.m"
-            timestampString = "436355436.949328"
+            timestampString = "436426389.190495"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "-doResize:"
             landmarkType = "5">
          </BreakpointContent>
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RegularRectangular/ImageCaptureWindowController.m"
-            timestampString = "436355814.16595"
+            timestampString = "436426389.190495"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
             landmarkName = "-createScreenShot"
             landmarkType = "5">
          </BreakpointContent>
