@@ -105,8 +105,6 @@
     float yHole = windowsCGRect.size.height - holeViewCGRect.origin.y - holeViewCGRect.size.height;
     CGRect rectToShot = CGRectMake(windowsCGRect.origin.x + holeViewCGRect.origin.x,
                                    yWin+yHole, holeViewCGRect.size.width, holeViewCGRect.size.height);
-    NSLog(@"%f %f",rectToShot.origin.x,rectToShot.origin.y);
-    
     CGImageRef screenShot = CGWindowListCreateImage(rectToShot, kCGWindowListOptionOnScreenOnly, kCGNullWindowID, kCGWindowImageDefault);
     Profile(screenShot);
     StopwatchEnd("Screenshot");

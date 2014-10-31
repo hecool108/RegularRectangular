@@ -13,6 +13,5 @@
 - (void)drawRect:(NSRect)dirtyRect {
     [super drawRect:dirtyRect];
     NSRectFillUsingOperation(NSMakeRect(0, 0, self.frame.size.width, self.frame.size.height), NSCompositeClear);
-    // Drawing code here.
 }
 @end
